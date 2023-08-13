@@ -7,12 +7,12 @@ Program ini untuk menghitung bunga pinjaman
 
 Input :
 ```json
-100000 // pinjaman
-10 // persentase bunga
+100000
+10
 ```
 Output:
 ```json
-110000.00 // total ynag harus dikembalikan
+110000.00
 ```
 ## 2. DeretAngka
 Description :
@@ -20,8 +20,8 @@ Program ini untuk menampilkan deret angka
 
 Input :
 ```json
-1 // nilai awal
-5 // nilai akhir
+1
+5
 ```
 Output:
 ```json
@@ -34,15 +34,15 @@ Program ini untuk menampilkan keterangan apakah sebuah angka termasuk angka ganj
 
 Input :
 ```json
-1 // nilai pertama
-6 // nilai kedua
-0 // nilai ketiga
+1
+6
+0
 ```
 Output:
 ```json
-ganjil // keterangan nilai pertama
-genap // keterangan nilai kedua
-nol // keterangan nilai ketiga
+ganjil
+genap
+nol
 ```
 
 ## 4. Multiple
@@ -95,17 +95,16 @@ Tarif lanjutan :
 
 Input :
 ```json
-// test case pertama
 1
 3
-// test case kedua
+
 2
 5
 ```
 Output :
 ```json
-4000 // result test case pertama
-3000 // result test case kedua
+4000
+3000
 ```
 ## 2. DeretMenurun
 Description :
@@ -113,8 +112,8 @@ Program ini untuk menampilkan deret angka secara menurun
 
 Input :
 ```json
-1 // nilai awal
-5 // nilai akhir
+1
+5
 ```
 Output:
 ```json
@@ -147,8 +146,8 @@ r = jari-jari
 t = tinggi
 Input :
 ```json
-4 // r
-10 // t
+4
+10
 ```
 Output :
 ```json
@@ -246,5 +245,5 @@ Output :
 ```json
 9.50
 
-50 // mengembalikan saldo awal
+50
 ```
