@@ -247,3 +247,120 @@ Output :
 
 50
 ```
+
+## Quiz 4
+## AlayConverter
+Description :
+program ini berfungsi untuk mengkonversi kalimat menjadi kalimat alay dengan ketentuan:
+- I/i = 1
+- Z/z = 2
+- E/e = 3
+- A/a = 4
+- G/g = 6
+- J/j = 7
+- B/b = 8
+
+Input :
+```
+Ini contoh program sederhana
+Saya ingin menjadi software developer
+```
+Output :
+```
+1n1 contoh pro6r4m s3d3rh4n4
+S4y4 1n61n m3n74d1 softw4r3 d3v3lop3r
+```
+
+## DeretBintang
+Description :
+Program ini berfungsi untuk menampilkan deret bintang sesuai input user
+
+Input :
+```
+5
+```
+Output :
+```
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+```
+
+## DiscountCalculator
+Description :
+program ini berfungsi untuk menghitung disount sebuah pembelian dengan ketentuan:
+- 10000 <= Harga Barang <= 1000000
+- 1 <= Qty Barang <= 100
+- Discount sebesar 15% dari total pembelian jika Qty Barang kelipatan 3 DAN 4
+
+Input :
+```
+100000
+12
+
+50000
+3
+```
+Output :
+```
+1020000.00
+
+150000.00
+```
+
+## ProgramKarcis
+Description :
+Program ini untuk menentukan jenis sanksi di tempat parkir dengan ketentuan:
+- Jika kasusnya Tidak membawa STNK maka diharuskan membawa STNK terlebih dahulu
+- Jika kasusnya kehilangan karcis dan terjadi kurang dari 4 kali, maka sanksu berupa penyerahan KTP
+- Jika kasusnya kehlangan karcis dan lebih dari 3 kali makan sanksinya adalah denda 10000
+
+Input :
+```
+1
+3
+
+2
+1
+
+1
+5
+```
+Output :
+```
+Serahkan KTP anda !!!
+
+Ambil STNK dulu !!!
+
+Bayar Denda 10000 !!!
+```
+
+## SatnightParkir
+Description :
+Program ini berfungsi untuk menghtiung biaya parkir di malam minggu dengan ketentuan:
+- Input 0 < durasi parkir <= 24
+- Jika durasi lebih dari 8 jam maka kendaraan disegel
+- Biaya parkir mobil 5jam pertama = 1500, setelah 5 jam 500/jam
+- Biaya parkir motor 5jam pertama = 1000, setelah 5 jam 500/jam
+
+Input :
+```
+1
+4
+
+2
+6
+
+1
+9
+```
+Output :
+```
+6000
+
+6500
+
+Disegel
+```
