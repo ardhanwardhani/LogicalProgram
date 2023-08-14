@@ -364,3 +364,64 @@ Output :
 
 Disegel
 ```
+
+## Quiz 5
+## BirthdayDiscount
+Decsription :
+Program ini befungsi untuk memberikan discount dengan ketentuan:
+- Total Purchase >= 50000
+- Discount sebesar 2 x Tanggal Lahir x Harga
+
+Input :
+```
+100000
+10
+```
+Output :
+```
+80,000.00
+```
+
+## DescendatInt
+Decsription :
+Input :
+```
+```
+Output :
+```
+```
+
+## GanjilInt
+Decsription :
+Program ini berfungsi untuk mengecek jumlah angka ganjil dari sebuah array berukuran 4x4
+
+Input :
+```
+1 1 1 1
+2 2 2 2
+3 3 3 3
+4 4 4 4
+```
+Output :
+```
+8
+```
+
+## HolesAlphabet
+Decsription :
+Program ini berfungsi untu menghtiung berapa jumlah lubang dalam sebuah kalimat dengan ketentuan:
+- A, D, O, P, Q, R = 1
+- B = 2
+
+Input :
+```
+BANDUNG
+
+JUARA
+```
+Output :
+```
+4
+
+3
+```
